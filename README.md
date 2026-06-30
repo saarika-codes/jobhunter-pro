@@ -114,9 +114,9 @@ jobhunter-pro/
 ├── vercel.json
 ├── .env.example
 └── src/
-    ├── App.jsx               # Routes + layout
+    ├── App.jsx               
     ├── main.jsx
-    ├── components/           # 18 reusable components
+    ├── components/           
     │   ├── Sidebar.jsx
     │   ├── Navbar.jsx
     │   ├── MobileNav.jsx
@@ -128,7 +128,7 @@ jobhunter-pro/
     │   ├── AIMatchCard.jsx
     │   ├── AIQuestionsCard.jsx
     │   └── ...
-    ├── pages/                # 8 pages
+    ├── pages/                
     │   ├── Dashboard.jsx
     │   ├── Jobs.jsx
     │   ├── AddJob.jsx
@@ -138,10 +138,10 @@ jobhunter-pro/
     │   ├── InterviewNotes.jsx
     │   └── Settings.jsx
     ├── context/
-    │   └── ThemeContext.jsx   # Dark mode context
+    │   └── ThemeContext.jsx   
     ├── utils/
-    │   └── storage.js         # Local Storage helpers
-    └── styles/                # 8 CSS modules
+    │   └── storage.js         
+    └── styles/                
         ├── globals.css
         ├── animations.css
         ├── dashboard.css
@@ -149,25 +149,6 @@ jobhunter-pro/
 ```
 
 ---
-
-## 🚀 Quick Start
-
-```bash
-# 1. Clone the repository
-git clone https://github.com/saarika-codes/jobhunter-pro.git
-
-# 2. Navigate into the folder
-cd jobhunter-pro
-
-# 3. Install dependencies
-npm install
-
-# 4. Start development server
-npm run dev
-
-# 5. Open in browser
-# http://localhost:3000
-```
 
 ### Enable AI Features (Optional)
 
